@@ -97,7 +97,7 @@ header{
     display: grid;
     grid-template-columns: 600px 300px;
     grid-template-rows: 60px 40px;
-    padding: 20px;
+    padding: 40px;
 }
 
 input{
@@ -129,5 +129,31 @@ button{
     font-weight: 600;
     font-size: 14px;
     margin-right: 15px;
+}
+
+.content{
+    padding: 30px 20px;
+    display: flex;
+    background-color: var(--grey);
+}
+
+.project-cards{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: repeat(3, 250px);
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.project-cards>.card{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border-left: 8px solid var(--yellow);
+    padding: 30px;
+}
+
+.card>p{
+    padding-top: 6px;
 }
 
