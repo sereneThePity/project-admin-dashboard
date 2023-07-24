@@ -47,3 +47,47 @@ table {
     --yellow: #f0b429;
     --grey: #e2e8f0;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    background-color: var(--blue);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    padding-right: 120px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h2{
+    font-weight: 500;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 700px 200px;
+    grid-template-rows: 60px 120px;
+    padding: 20px;
+}
+
